@@ -79,3 +79,11 @@
     flex-wrap: wrap;
     gap: 20px;
 }
+
+footer p {
+    color: #39432A;
+}
+
+p {
+    font-size: 18px;
+}
