@@ -1,89 +1,88 @@
 /* Navbar styles */
 .nav-container {
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .nav-btn {
-    flex: 1;
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    font-family: 'Arial', sans-serif;
-    border-radius: 50px;
-    border: 1px solid black;
-    margin: 0 20px;
-    padding: 10px 20px;
+  flex: 1;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-family: "Arial", sans-serif;
+  border-radius: 50px;
+  border: 1px solid black;
+  margin: 0 20px;
+  padding: 10px 20px;
+}
+.nav-btn:hover {
+  background-color: #e5e5e5;
 }
 
 .home {
-    background-color: #d3cc9a;
+  background-color: #d3cc9a;
 }
 
 .who-we-are {
-    background-color: #f4a261;
+  background-color: #f4a261;
 }
 
 .next-read {
-    background-color: #bdaaf5;
+  background-color: #bdaaf5;
 }
 
 .prev-reads {
-    background-color: #a4b256;
+  background-color: #a4b256;
 }
 
 .join-club {
-    background-color: #fbc597;
+  background-color: #fbc597;
 }
 
 .find-book {
-    background-color: #b9b1ff;
-}
-
-.nav-btn:hover {
-    background-color: #e5e5e5;
+  background-color: #b9b1ff;
 }
 
 /* End Navbar styles */
-
 .book-image {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 40%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 40%;
 }
-
 .book-image img {
-    max-width: 100%;
-    max-height: 500px;
-    object-fit: contain;
-    height: auto;
-    width: auto;
+  max-width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+  height: auto;
+  width: auto;
 }
 
 .book-details {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    text-align: center;
-    margin-top: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  margin-top: 0;
 }
 
 .book-section .container {
-    display: flex;
-    align-items: stretch;
-    flex-wrap: wrap;
-    gap: 20px;
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 footer p {
-    color: #39432A;
+  color: #39432A;
 }
 
 p {
-    font-size: 18px;
+  font-size: 18px;
 }
+
+/*# sourceMappingURL=style.css.map */
