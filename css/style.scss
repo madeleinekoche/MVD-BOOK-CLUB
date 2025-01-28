@@ -1,4 +1,3 @@
-// 🎨 Variables Globales
 $primary-text: #39432A;
 $nav-width: 80%;
 $btn-radius: 50px;
@@ -6,7 +5,7 @@ $btn-padding: 10px 20px;
 $btn-border: 1px solid black;
 $hover-color: #e5e5e5;
 
-// 🔄 Mixins
+
 @mixin flex-center {
     display: flex;
     justify-content: center;
@@ -31,7 +30,6 @@ $hover-color: #e5e5e5;
     }
 }
 
-// 📌 Navbar Styles
 .nav-container {
     width: $nav-width;
     margin: 0 auto;
@@ -41,7 +39,6 @@ $hover-color: #e5e5e5;
     }
 }
 
-// 📍 Botones (usando `@extend`)
 %btn-shared {
     border-radius: $btn-radius;
     border: $btn-border;
@@ -57,7 +54,6 @@ $hover-color: #e5e5e5;
     }
 }
 
-// 🎨 Asignar colores a botones con `@each`
 $colors: (
     home: #d3cc9a,
     who-we-are: #f4a261,
