@@ -5,7 +5,6 @@ $btn-padding: 10px 20px;
 $btn-border: 1px solid black;
 $hover-color: #e5e5e5;
 
-
 @mixin flex-center {
     display: flex;
     justify-content: center;
@@ -70,7 +69,6 @@ $colors: (
     }
 }
 
-// 📖 Book Section
 .book-section {
     .container {
         @include flex-center;
@@ -104,19 +102,16 @@ $colors: (
     }
 }
 
-// 📌 Footer
 footer {
     p {
         color: $primary-text;
     }
 }
 
-// 📄 Tipografía Global
 p {
     font-size: 18px;
 }
 
-// 🌟 Animaciones y Transiciones Avanzadas
 @keyframes fadeIn {
     from {
         opacity: 0;
