@@ -11,10 +11,19 @@ $colors: (
 );
 
 @mixin flex-container($direction: row, $justify: center, $align: center) {
-    display: flex;
-    flex-direction: $direction;
-    justify-content: $justify;
-    align-items: $align;
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* Navbar styles */
@@ -34,6 +43,7 @@ $colors: (
   border: 1px solid black;
   margin: 0 20px;
   padding: 10px 20px;
+  transition: background-color 0.3s ease;
 
   &:hover {
     background-color: $hover-color;
@@ -52,6 +62,7 @@ $colors: (
   flex: 1;
   @include flex-container;
   max-width: 40%;
+  animation: fadeIn 1s ease-in-out forwards;
 
   img {
     max-width: 100%;
@@ -63,10 +74,10 @@ $colors: (
 }
 
 .book-details {
-    flex: 1;
-    @include flex-container(column, flex-start, center);
-    text-align: center;
-    margin-top: 0;
+  flex: 1;
+  @include flex-container(column, flex-start, center);
+  text-align: center;
+  margin-top: 0;
 }
 
 .book-section {
